@@ -1,0 +1,48 @@
+canvas {
+  display: block;
+  margin: auto;
+  background-color: #f0f0f0;
+  border: 1px solid black;
+}
+
+.scoreboard {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+
+
+#gameover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-family: Arial, sans-serif;
+}
+
+
+
+#gameover h1 {
+  color: #e8f700;
+  font-size: 43px;
+  margin-bottom: 16px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.button {
+  padding: 10px 16px;
+    border-radius: 4px;
+    background-color: deepskyblue;
+    text-transform: uppercase;
+    cursor: pointer;
+}
